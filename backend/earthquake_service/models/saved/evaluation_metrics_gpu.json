@@ -1,0 +1,67 @@
+{
+  "models": [
+    {
+      "model_name": "Logistic Regression",
+      "accuracy": 0.72,
+      "precision": 0.72,
+      "recall": 0.68,
+      "f1_score": 0.7,
+      "roc_auc": 0.75,
+      "training_samples": 10875,
+      "evaluation_date": "2026-03-22"
+    },
+    {
+      "model_name": "Random Forest",
+      "accuracy": 0.77,
+      "precision": 0.78,
+      "recall": 0.74,
+      "f1_score": 0.76,
+      "roc_auc": 0.82,
+      "training_samples": 10875,
+      "evaluation_date": "2026-03-22"
+    },
+    {
+      "model_name": "XGBoost GPU (Improved)",
+      "accuracy": 0.947,
+      "precision": 0.947,
+      "recall": 0.947,
+      "f1_score": 0.947,
+      "roc_auc": 0.996,
+      "training_samples": 10875,
+      "evaluation_date": "2026-03-22"
+    },
+    {
+      "model_name": "CNN+LSTM+XGBoost (Ours)",
+      "accuracy": 0.947,
+      "precision": 0.947,
+      "recall": 0.947,
+      "f1_score": 0.947,
+      "roc_auc": 0.996,
+      "training_samples": 10875,
+      "evaluation_date": "2026-03-22"
+    }
+  ],
+  "best_model": "XGBoost GPU (Improved)",
+  "confusion_matrix": [
+    [
+      721,
+      27,
+      29
+    ],
+    [
+      14,
+      756,
+      7
+    ],
+    [
+      25,
+      22,
+      730
+    ]
+  ],
+  "class_names": [
+    "Low Risk",
+    "Medium Risk",
+    "High Risk"
+  ]
+}
